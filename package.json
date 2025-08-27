@@ -1,0 +1,17 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.1",
+  "description": "Tablas de multiplicar",
+  "license": "MIT",
+  "author": "Cesar Barrero",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "base11": "node index.js --base=11"
+  },
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^18.0.0"
+  }
+}
