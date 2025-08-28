@@ -11,3 +11,4 @@ console.clear();
 createarchivo(argv.base,argv.Listar,argv.hasta)
     .then((nombrearchivo) => console.log(nombrearchivo.brightGreen,'Creado exitosamente'.red))
     .catch((err) => console.log(err));
+// const base = 3;
